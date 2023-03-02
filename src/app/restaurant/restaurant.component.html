@@ -1,0 +1,15 @@
+<p style="border: 1px solid white"></p>
+<b style="color: red;font-size: 35px;margin-left: 2%;">R</b><span style="font-style: italic;color: white; font-size: 25px;margin-right: 48%;">estaurants</span>
+<b (click)="onSelect(r)" *ngFor="let r of restaurant">
+        
+        <div  class="card highlight-card card-small">
+            <img width="250px" height="120px" src="/assets/{{r.restimage}}" style="margin: 2%;"/>
+      <i>
+     <b style="color: greenyellow;">{{r.rstname | uppercase}}</b><br>
+      <label style="color: aquamarine;padding-right: 10px;">Ratings </label>{{r.ratings}}<br>
+      <label style="color: aquamarine;padding-right: 10px;">About </label>{{r.desc}}</i><br>
+      </div>
+    </b>
+
+
+

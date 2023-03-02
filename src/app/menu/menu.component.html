@@ -1,0 +1,15 @@
+<p style="border: 1px solid white"></p>
+<h4 style="color: white;"><b style="color:  greenyellow;margin-left: 5%;">{{menurestrtname | uppercase}}</b> | Menu </h4>
+<p style="border: 1px solid white"></p>
+<b *ngFor="let m of returnmenudata">
+    <div  class="card highlight-card card-small">
+        <img width="250px" height="120px" src="/assets/{{m.dishimage}}" style="margin: 2%;"/>
+  <i>
+ <b style="color: greenyellow;">{{m.dishname | titlecase}}</b><br>
+  <label style="color: aquamarine;padding-right: 10px; ">Ratings </label>{{m.dishratings}}<br>
+  <label style="color: aquamarine;padding-right: 10px;">About </label>{{m.dishdesc}}<br>
+  <label style="color: aquamarine;padding-right: 10px;">Price </label>₹ {{m.dishprice}}</i>
+  <br>
+  <button class="btn btn-primary" (click)=addtocart(m)>Place Order</button>
+  </div>
+</b>

@@ -1,0 +1,65 @@
+[
+    {
+        "rstid":1155,
+        "rstname":"Swagath",
+        "dishname":"biryani",
+        "dishratings":5,
+        "dishimage":"dish2.jpg",
+        "dishdesc":"this dish is made of by using chilli sauce and fresh fried chicken with high masala flavor",
+        "dishprice":452
+    },
+    {
+        "rstid":1155,
+        "rstname":"Swagath",
+        "dishname":"ChickenFriedRice",
+        "dishratings":5,
+        "dishimage":"dish1.jpg",
+        "dishdesc":"this dish is made of by using chilli sauce and fresh fried chicken with high masala flavor",
+        "dishprice":500
+    },
+    {
+        "rstid":1155,
+        "rstname":"Swagath",
+        "dishname":"PaneerRice",
+        "dishratings":5,
+        "dishimage":"dish10.jpg",
+        "dishdesc":"this dish is made of by using chilli sauce and fresh fried chicken with high masala flavor",
+        "dishprice":180
+    },
+    {
+        "rstid":1156,
+        "rstname":"Bawarchi",
+        "dishname":"Pizza",
+        "dishratings":5,
+        "dishimage":"pizza.jpg",
+        "dishdesc":"this dish is made of by using chilli sauce and fresh fried chicken with high masala flavor",
+        "dishprice":250
+    },
+    {
+        "rstid":1155,
+        "rstname":"Swagath",
+        "dishname":"Pasta",
+        "dishratings":5,
+        "dishimage":"dish5.jpg",
+        "dishdesc":"this dish is made of by using chilli sauce and fresh fried chicken with high masala flavor",
+        "dishprice":125
+    },
+    {
+        "rstid":1155,
+        "rstname":"Swagath",
+        "dishname":"Manchuria",
+        "dishratings":5,
+        "dishimage":"dish7.jpg",
+        "dishdesc":"this dish is made of by using chilli sauce and fresh fried chicken with high masala flavor",
+        "dishprice":180
+    },
+    {
+        "rstid":1157,
+        "rstname":"PistaHouse",
+        "dishname":"ButterNon",
+        "dishratings":5,
+        "dishimage":"dish9.jpg",
+        "dishdesc":"this dish is made of by using chilli sauce and fresh fried chicken with high masala flavor",
+        "dishprice":80
+    }
+]

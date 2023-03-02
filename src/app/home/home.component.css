@@ -1,0 +1,35 @@
+.centered {
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example {
+    from {color: white;}
+    to {color: aquamarine;}
+  }
+
+.centeredp{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    right:45%;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.centered:hover{
+    color: aquamarine;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
